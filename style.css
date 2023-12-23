@@ -1,6 +1,7 @@
 body {
   background-color: #595a5e;
   font-family: 'Kanit', sans-serif;
+  text-align: center;
 }
 
 .container {
@@ -10,7 +11,6 @@ body {
 }
 
 .players {
-  text-align: center;
   display: flex;
   flex-direction: row;
   gap: 175px;
@@ -68,12 +68,6 @@ footer {
 a {
   color: white;
 }
-
-@media (max-width: 1399.98px) { 
-  body {
-    text-align: center;
-  }
- }
 
 @media (min-width: 300px) and (max-width: 575.98px) {
 
