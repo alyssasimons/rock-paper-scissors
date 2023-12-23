@@ -11,8 +11,6 @@ function changeImage(){
         document.querySelector("h2").innerHTML = "Player 1 wins! 🎉"; 
     } else if (randomNumber1 === 2 && randomNumber2 === 0) {
         document.querySelector("h2").innerHTML = "Player 1 wins! 🎉";
-    } else if (randomNumber1 === 1 && randomNumber2 === 0){
-        document.querySelector("h2").innerHTML = "Player 1 wins! 🎉";
     } else if (randomNumber1 === randomNumber2) {
         document.querySelector("h2").innerHTML = "Draw!"; 
     } else {
